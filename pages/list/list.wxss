@@ -1,0 +1,123 @@
+/* pages/list/list.wxss */
+.ml-115 {
+  margin-left: auto;
+}
+.page {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+}
+.section {
+  padding-bottom: 27.78rpx;
+  background-color: #111621;
+  overflow: hidden;
+}
+.section_2 {
+  display: flex;
+  padding: 38.89rpx 22.22rpx 27.78rpx;
+  background-color: #111621;
+}
+.text-wrapper {
+  margin: auto;
+  overflow: hidden;
+}
+.font {
+  font-size: 36rpx;
+  font-family: Plus Jakarta Sans;
+  line-height: 23.93rpx;
+  font-weight: 700;
+  color: #ffffff;
+}
+.text {
+  line-height: 24.44rpx;
+}
+.image {
+  width: 33.33rpx;
+  height: 33.33rpx;
+}
+.section_3 {
+  padding: 16.67rpx 0;
+  background-color: #111621;
+}
+.image_2 {
+  background-color: #111621;
+  overflow: hidden;
+  width: 541.67rpx;
+  height: 361.11rpx;
+}
+.pos {
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 50%;
+}
+.text_2 {
+  margin-left: 22.22rpx;
+  margin-top: 36.11rpx;
+  color: #ffffff;
+  font-size: 30.56rpx;
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  line-height: 23.5rpx;
+}
+.font_2 {
+  font-size: 22.22rpx;
+  font-family: Plus Jakarta Sans;
+  line-height: 21.71rpx;
+  color: #93a8c6;
+}
+.text_3 {
+  margin-left: 25rpx;
+  margin-top: 36.11rpx;
+  color: #ffffff;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 19.44rpx;
+}
+.list-item {
+  margin: auto;
+  padding: 22.22rpx 0;
+  background-color: #111621;
+}
+.section_5 {
+  margin: 0 22.22rpx;
+  padding-bottom: 25rpx;
+  background-color: #192333;
+  border-radius: 16.67rpx;
+  filter: drop-shadow(0rpx 0rpx 2.78rpx #0000001a);
+  overflow: hidden;
+  width: 660rpx;
+}
+.image_3 {
+  border-radius: 16.67rpx;
+  width: 660rpx;
+  height: 340rpx;
+}
+.text_4 {
+  margin-left: 25rpx;
+  margin-top: 30.56rpx;
+}
+.text_5 {
+  line-height: 24.15rpx;
+}
+.text_8 {
+  margin-left: 22.22rpx;
+  margin-top: 16.67rpx;
+}
+.text_6 {
+  margin-left: 25rpx;
+  margin-top: 11.11rpx;
+}
+.text_7 {
+  line-height: 23.67rpx;
+}

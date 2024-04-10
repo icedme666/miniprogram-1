@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="flex-col section">
+  <view class="flex-col self-stretch section_2" bindtap="goToDetail">
+    <image
+      class="self-end image"
+      src="https://ide.code.fun/api/image?token=661109d3d52b77001152ec64&name=278520355b0c77cf2840673a005d83a7.png"
+    />
+    <text class="mt-28 self-start text">冥想</text>
+  </view>
+  <text class="self-start font text_2">物质宇宙即是能量</text>
+  <view class="flex-col justify-start self-stretch section_3 view">
+    <block wx:for="{{list}}" wx:key="id">
+    <view class="list_item" bindtap="goToDetail" data-id="{{item.id}}">
+    <view class="flex-col items-start group">
+      <image
+        class="image_2"
+        src="{{item.image}}"
+      />
+      <view class="font text_3">{{item.name}}</view>
+    </view>
+    </view>
+  </block>
+  </view>
+</view>

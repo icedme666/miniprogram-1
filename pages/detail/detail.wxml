@@ -1,0 +1,22 @@
+<!--pages/detail/detail.wxml-->
+<view class="flex-col justify-start items-center page">
+  <view class="flex-col section">
+    <view class="flex-row section_2">
+      <view class="flex-col justify-start items-start text-wrapper">
+        <text class="font text">{{products.name}}</text>
+      </view>
+      <view>
+        <image class="image ml-116" src="https://ide.code.fun/api/image?token=661109d3d52b77001152ec64&name=6bd8de9f8bf167eceadb21b1fa3c54e7.png" />
+      </view>
+    </view>
+    <view class="flex-col justify-start section_3">
+      <view class="flex-col items-start section_4">
+        <image class="shrink-0 image_2" src="{{products.image}}" />
+        <text class="font_2 text_3">{{products.description}}</text>
+      </view>
+    </view>
+    <view class="flex-col items-start section_5">
+      <text class="text_5">{{products.content}}</text>
+    </view>
+  </view>
+</view>

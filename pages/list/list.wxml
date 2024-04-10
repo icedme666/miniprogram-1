@@ -1,0 +1,30 @@
+<!--pages/list/list.wxml-->
+<view class="flex-col justify-start items-center page">
+  <view class="flex-col section">
+    <view class="flex-col self-stretch">
+      <view class="flex-row section_2">
+        <view class="flex-col justify-start items-start text-wrapper">
+          <text class="font text">{{categorie[0].name}}</text>
+        </view>
+        <view>
+          <image class="image ml-115" src="https://ide.code.fun/api/image?token=661109d3d52b77001152ec64&name=65641ea1aaa3f074620777d7b1275107.png" />
+        </view>
+      </view>
+      <view class="flex-col justify-start relative section_3">
+        <image class="image_2 pos" src="{{categorie[0].image}}" />
+      </view>
+    </view>
+    <text class="self-start font_2 text_3">Find the best ticket for your trip.</text>
+    <view class="flex-col self-stretch list">
+      <block wx:for="{{products}}" wx:key="id">
+      <view class="flex-col justify-start list-item" bindtap="goToDetail" data-id="{{item.id}}">
+        <view class="flex-col items-start section_5">
+          <image class="shrink-0 image_3" src="{{item.image}}" />
+          <text class="font text_4 text_5">{{item.name}}</text>
+          <text class="font_2 text_6 text_7">{{item.description}}</text>
+        </view>
+      </view>
+      </block>
+    </view>
+  </view>
+</view>
